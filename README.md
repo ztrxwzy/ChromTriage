@@ -18,6 +18,8 @@ It is useful if you already have a Chrome loot directory and want to answer two 
 
 The tool is intentionally narrow. It focuses only on scanning Chrome credential artifacts and decrypting `v10` values when the AES key is already known.
 
+<img width="811" height="231" alt="Captura de pantalla 2026-03-19 200246" src="https://github.com/user-attachments/assets/c64a5333-58ae-4134-b2e3-be068faef9ee" />
+
 ## Requirements
 
 - Python 3
@@ -51,7 +53,7 @@ What `scan` shows:
 - The resolved `Login Data` path
 - The rows from `logins`
 
-[ screenshot here 🙏 ]
+<img width="1174" height="268" alt="Captura de pantalla 2026-03-19 200226" src="https://github.com/user-attachments/assets/569a20d5-5c20-4ec5-be45-7b0331109320" />
 
 ### Decrypt
 
@@ -65,7 +67,7 @@ What `decrypt` does:
 - Uses the supplied AES key to decrypt the blob
 - Prints the plaintext result
 
-[ screenshot here 🙏 ]
+<img width="1599" height="173" alt="Captura de pantalla 2026-03-19 200238" src="https://github.com/user-attachments/assets/3550fe1d-d5c9-4133-a46e-435f8e71a83f" />
 
 ## Technical Notes
 
